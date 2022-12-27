@@ -27,7 +27,7 @@ const agriculture = L.tileLayer.wms("https://sedac.ciesin.columbia.edu/geoserver
 });
 //instantiate map class
 const map = new MapHandles("map", "https://sedac.ciesin.columbia.edu/geoserver/wms", {
-    zoom: 3,
+    zoom: 2.5,
     center: [51.505, -0.09],
     layers: [layer, agriculture],
 });
