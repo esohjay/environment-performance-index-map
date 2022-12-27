@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h1>
+        Environmental Performance Index, 2020 Release
+        &#40;1950 &#8211; 2020&#41;
+      </h1>
+
+      <h2 id="map-header"></h2>
+      <section id="container">
+        <div id="map"></div>
+      </section>
+      <section id="texts">
+        <article>
+          <p>
+            According to SEDAC, the 2020 Environmental Performance Index (2020
+            EPI) centers on two broad environmental protection objectives:
+          </p>
+          <ol>
+            <li>Reducing environmental stresses on human health, and</li>
+            <li>
+              Promoting ecosystem vitality and sound natural resource
+              management.
+            </li>
+          </ol>
+          <p>
+            They further report that they are gauged using 32 indicators tracked
+            in 11 issue categories which icludes:
+          </p>
+          <ol>
+            <li>Air Quality</li>
+            <li>Sanitation and Drinking Water</li>
+            <li>Heavy Metals</li>
+            <li>Waste Management</li>
+            <li>Biodiversity and Habitat</li>
+            <li>Ecosystem Services</li>
+            <li>Fisheries</li>
+            <li>Climate Change</li>
+            <li>Pollution Emissions</li>
+            <li>Agriculture</li>
+            <li>Water Resources</li>
+          </ol>
+          <p>
+            The map above displays the 11 indicators. Click on the layer icon on
+            the map to switch between the indicators
+          </p>
+          <p>
+            More information can be found
+            <a
+              href="https://sedac.ciesin.columbia.edu/downloads/data/epi/epi-environmental-performance-index-2020/2020-epi-report.pdf"
+              >here</a
+            >
+          </p>
+          <h3>Reference</h3>
+          <p>
+            Yale Center for Environmental Law and Policy - YCELP - Yale
+            University, and Center for International Earth Science Information
+            Network - CIESIN - Columbia University. 2020. 2020 Environmental
+            Performance Index (EPI). Palisades, New York: NASA Socioeconomic
+            Data and Applications Center (SEDAC).
+            <a href="https://doi.org/10.7927/f54c-0r44"
+              >doi.org/10.7927/f54c-0r44</a
+            >. ACESSED 27 12 2022
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <i>Developed by Olusoji Daramola</i>
+      <a href="mailto:oluseye.olusoji@gmail.com">oluseye.olusoji@gmail.com</a>
+      <a href="tel:+447856422070">(+44) 7856422070</a>
+    </footer>
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="dist/L.Geoserver.js"></script>
+    <script src="dist/map.js"></script>
+    <script src="dist/index.js"></script>
+  </body>
+</html>
